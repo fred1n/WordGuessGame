@@ -1,0 +1,36 @@
+/* Main page setting */
+body {
+    padding:0;
+    margin:0;
+    font-family: 'Knewave', cursive;
+}
+
+header {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33%;
+    padding: 30px;
+    height: 45
+    0px; 
+    border-color: black;
+    border-style: dotted;
+    border-width: 3px;
+    text-align: center;
+
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
