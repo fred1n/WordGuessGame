@@ -16,21 +16,19 @@ header {
     float: left;
     width: 33%;
     padding: 30px;
-    height: 45
-    0px; 
+    height: 450px; 
     border-color: black;
     border-style: dotted;
     border-width: 3px;
     text-align: center;
 
   }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
+
+  .row {
+      height: 450px;
   }
+  
+
 
 
 
