@@ -16,26 +16,29 @@
     </header>
 
     <!--Song Identified - Result -->
-    <div id="song-result"></div>
+    <div id="songResult"></div>
 
     <!--Initial HangMan Game image-->
     <br />
-    <!-- <div class="image-select">
+    <!-- <div class="imageSelected">
       <img src="./assets/images/hmgame.jpg" alt="HangMan Game">
     </div> -->
     
+    <p id="winner-Label">Winner</p>
+
     <!--Start Instructions-->
     <div class="instructions">
       <div class="row">
         <div class="column">
-          <div class="image-select">
+          <div class="imageSelected">
             <img src="./assets/images/hmgame.jpg" alt="HangMan Game">
           </div>
         </div>
-        
+
+
         <div class="column">
 
-          <div class="press-key">
+          <div class="anyKey">
               <p>PRESS ANY KEY TO GET</p>
               <p>STARTED!</p>
               <p>WINS</p>
@@ -43,29 +46,29 @@
           </div>
 
           <!--Song to Guess-->
-          <div id="current-song">_ _ _ _ _ _ _</div>
+          <div id="underScoreW">_ _ _ _</div>
 
           <!--Game Instructions-->
-          <div class="press-key">
+          <div class="anyKey">
               <p>NUMBER OF GUESSES</p>
               <p>REMAINING</p>
           </div>
 
           <!--Letter Counter-->
-          <div id="word-count">12</div>
+          <div id="guesses-left">12</div>
 
           <!--Letters Guessed-->
-          <div class="letter-selected">
+          <div class="letterChoices">
               <p>LETTERS ALREADY</p>
               <P>GUESSED</P>
           </div>
 
           <!--List letters guessed-->
-          <div id="letters-guessed"></div>
+          <div id="letters-guessed">""</div>
         </div>
       </div>
     </div>
-
+    
     <script src="./assets/javascript/game.js"></script>
   </body>
 </html>

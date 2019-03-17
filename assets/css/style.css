@@ -4,11 +4,16 @@ body {
     margin:0;
     font-family: 'Knewave', cursive;
 }
-
+/* Header page */
 header {
     margin: auto;
     width: 100%;
     padding: 10px;
+}
+
+/* Display name of song if user guessed correctly */
+#winner-Label {
+    text-align: center;
 }
 
 /* Create two equal columns that floats next to each other */
@@ -24,6 +29,7 @@ header {
 
   }
 
+  /* set height of row to match */
   .row {
       height: 450px;
   }
