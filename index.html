@@ -11,10 +11,11 @@
   <body>
     <!--Header-->
     <header>
-      <!-- <h1>HANGMAN</h1> -->
-      <img src="./assets/images/hangman.png" alt="">
+      <!--Hangman image on start display image -->
+      <img  src="./assets/images/hangman.png" alt="" />
     </header>
 
+    <button onclick="resetGame()">Restart Game</button>
     <!--Song Identified - Result -->
     <div id="songResult"></div>
 
@@ -24,14 +25,14 @@
       <img src="./assets/images/hmgame.jpg" alt="HangMan Game">
     </div> -->
     
-    <p id="winner-Label">Winner</p>
+    <p id="winner-Label"> </p>
 
     <!--Start Instructions-->
     <div class="instructions">
       <div class="row">
         <div class="column">
           <div class="imageSelected">
-            <img src="./assets/images/hmgame.jpg" alt="HangMan Game">
+            <img id="band-image" src="./assets/images/hmgame.jpg" alt="HangMan Game">
           </div>
         </div>
 
@@ -55,7 +56,7 @@
           </div>
 
           <!--Letter Counter-->
-          <div id="guesses-left">12</div>
+          <div id="guesses-left">1</div>
 
           <!--Letters Guessed-->
           <div class="letterChoices">
@@ -64,11 +65,15 @@
           </div>
 
           <!--List letters guessed-->
-          <div id="letters-guessed">""</div>
+          <div id="letters-guessed"> </div>
         </div>
       </div>
     </div>
+    <!--Display lost game message-->
+    <p id="loser-Label"> </p>
     
+   
+
     <script src="./assets/javascript/game.js"></script>
   </body>
 </html>
