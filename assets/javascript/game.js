@@ -20,7 +20,7 @@ var holdImageIndex = 0;       // Hold index of band selected
 var bandImage;                // Variable to hold the band image location
 var wrongKeyPressed = "Games Accepts only letters!!"
 var exitMessage = "Game over!!"
-var winMessage = "Winner!!"
+var winMessage = "Winner...Press Restart-Game button to start a new game!!"
 
 // Function
 // Main function that starts the game
@@ -92,7 +92,7 @@ document.onkeyup = function(event) {
           // Update page with underscore and remove comma's
           document.getElementById("underScoreW").textContent = underScore.join(" ");
 
-          // console.log("underscore2 "+ underScore);
+          console.log("underscore2 "+ underScore);
           // guessesLeftCtr--;
           // document.getElementById("guesses-left").textContent = guessesLeftCtr;
 
@@ -171,15 +171,15 @@ function determineWinLose(){
     console.log(bandImage);
     document.getElementById("band-image").setAttribute("src",bandImage);
     // setImage();
-    document.getElementById("band-image").textContent = "./assets/images/defleppard.jpg";
+    // document.getElementById("band-image").innerHTML = "./assets/images/defleppard.jpg";
     // winnerFlag=true;
-    let i = 0;
-    setTimeout(() => alert("You have won...press Ok to reset game!"), 100); // 100000000
+    // let i = 0;
+    // setTimeout(() => alert("You have won...press Ok to reset game!"), 100); // 100000000
     // assume that the time to execute this function is >100ms
-    for(let j = 0; j < 100000000; j++) {
-      i++;
-    }
-    resetGame();
+    // for(let j = 0; j < 100000000; j++) {
+    //   i++;
+    // }
+    // resetGame();
   } // Check # of guesses left to see if they have any left
   else if(guessesLeftCtr === 0)
   {

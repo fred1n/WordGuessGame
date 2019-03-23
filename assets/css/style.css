@@ -16,6 +16,11 @@ header {
     text-align: center;
 }
 
+#band-image {
+    height: 300px;
+    width: 300px;
+}
+
 p#loser-Label{
     clear:left;
     padding: 20px;
