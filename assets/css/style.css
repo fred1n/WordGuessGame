@@ -1,0 +1,55 @@
+/* Main page setting */
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Knewave', cursive;
+}
+
+/* Header page */
+
+header {
+	margin: auto;
+	width: 100%;
+	padding: 10px;
+}
+
+/* Set to display winner message guessed correctly */
+
+#winner-Label {
+	text-align: center;
+}
+
+/* band image size                      */
+
+#band-image {
+	height: 300px;
+	width: 300px;
+}
+
+/* set  to display loser message at bottom  */
+
+p#loser-Label {
+	clear: left;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Create two equal columns that floats next to each other */
+
+.column {
+	float: left;
+	width: 33%;
+	padding: 30px;
+	height: 430px;
+	border-color: black;
+	border-style: dotted;
+	border-width: 3px;
+	text-align: center;
+}
+
+/* set height of row to match */
+
+.row {
+	height: 450px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>Word Guess Game</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Knewave" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+
+  <body>
+    <!--Header-->
+    <header>
+      <!--Hangman image on start display image -->
+      <img src="./assets/images/hangman.png" alt="" />
+    </header>
+
+    <button onclick="resetGame()">Restart Game</button>
+    <!--Song Identified - Result -->
+    <div id="songResult"></div>
+
+    <!--Initial HangMan Game image-->
+    <br />
+
+    <p id="winner-Label"> </p>
+
+    <!--Start Instructions-->
+    <div class="instructions">
+      <div class="row">
+        <div class="column">
+          <div class="imageSelected">
+            <img id="band-image" src="./assets/images/hmgame.jpg" alt="HangMan Game">
+          </div>
+        </div>
+
+        // Div class to display the game start up instructions
+        <div class="column">
+          <div class="anyKey">
+            <p>PRESS ANY KEY TO GET</p>
+            <p>STARTED!</p>
+            <p>WINS</p>
+            <p>CURRENT WORD</p>
+          </div>
+
+          <!--UnderScore displaying # of letters for random word-->
+          <div id="underScoreW">_ _ _ _</div>
+
+          <!--Display instructions indicating guesses and #'s remaining-->
+          <div class="anyKey">
+            <p>NUMBER OF GUESSES</p>
+            <p>REMAINING</p>
+          </div>
+
+          <!--Letter Counter-->
+          <div id="guesses-left">12</div>
+
+          <!--Displays info on page-->
+          <div class="letterChoices">
+            <p>LETTERS ALREADY</p>
+            <P>GUESSED</P>
+          </div>
+
+          <!--List letters guessed-->
+          <div id="letters-guessed"> </div>
+        </div>
+      </div>
+    </div>
+    <!--Display lost game message-->
+    <p id="loser-Label"> </p>
+    <!--link to javascript source page -->
+    <script src="./assets/javascript/game.js"></script>
+  </body>
+
+</html>
