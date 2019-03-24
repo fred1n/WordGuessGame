@@ -1,10 +1,13 @@
 /* Main page setting */
+
 body {
 	padding: 0;
 	margin: 0;
 	font-family: 'Knewave', cursive;
 }
+
 /* Header page */
+
 header {
 	margin: auto;
 	width: 100%;
@@ -12,17 +15,20 @@ header {
 }
 
 /* Set to display winner message guessed correctly */
+
 #winner-Label {
 	text-align: center;
 }
 
 /* band image size                      */
+
 #band-image {
 	height: 300px;
 	width: 300px;
 }
 
 /* set  to display loser message at bottom  */
+
 p#loser-Label {
 	clear: left;
 	padding: 20px;
@@ -30,6 +36,7 @@ p#loser-Label {
 }
 
 /* Create two equal columns that floats next to each other */
+
 .column {
 	float: left;
 	width: 33%;
@@ -42,6 +49,7 @@ p#loser-Label {
 }
 
 /* set height of row to match */
+
 .row {
 	height: 450px;
 }
