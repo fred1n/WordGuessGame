@@ -1,5 +1,15 @@
 # JavaScript Assignment
 
+### Game Selection Overview
+
+I selected the Word Guessing game.  I also went off the example provided which uses bands from the 80's.  
+
+The game starts with the 80's band banner, a left column showing the 80's hangman image and will also be used to display the image of the band identified.  The right column provides instructions and keeps track of the letters guessed, a countdown of the letters left to guess, and the letters have didn't match and have been guessed.
+
+The game only accepts letters no #'s so the game only has 80's bands that have no numbers on it. If you guess the band, the band image will display on the left of column, the band name will display on the top of the box, a message indicating that you've and to press the restart button to start a new game, and finally you'll get an alert that you've won the game.
+
+If you lose, you'll get an alert that you've lost and a message on the bottom indicating that you've lost.  Once you press Ok on the alert, the game will restart automatically.
+
 ### Overview
 
 In this assignment, you'll create one of two possible computer games: Word Guess or Psychic. These apps will run in the browser, and feature dynamically updated HTML and CSS powered by your JavaScript code.
